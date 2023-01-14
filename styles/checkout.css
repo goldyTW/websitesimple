@@ -1,0 +1,87 @@
+.cardCheckout{
+    /* height: 120px; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease-in;
+  }
+.cardCheckout p{
+    font-weight: 300;
+    font-size: 20px;
+}
+.cardCheckout h4{
+  font-weight: 600;
+  color: #189AB4;
+}
+.cardCheckout2{
+  /* height: 120px; */
+  background-color: #f1feff;
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transition: 0.5s ease-in;
+}
+.cardCheckout2 p{
+  font-size: 20px;
+}
+.rightSide{
+  position: fixed;
+  width: 20%;
+}
+.checkoutBtn{
+  background: #189AB4;
+  border-radius: 10px;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  transition: 0.5s;
+  width: 100%;
+}
+.checkoutBtn:hover{
+  color: white;
+  background-color: #05445E;
+}
+.input{
+  width: 100%;
+  border: none;
+  border-bottom: 0.5px solid #aaa;
+}
+.input::after{
+  border: none;
+  outline: none;
+}
+.error {
+  /* font-family: 'Poppins'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 21px !important;
+  color: red;
+  text-decoration: none;
+}
+.loading-spinner {
+  width: 30px;
+  height: 30px;
+  border: 10px solid #ccc;
+  /* Light grey */
+  border-top: 10px solid #383636;
+  /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+@keyframes spinner {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+@media(max-width:768px){
+  .rightSide{
+    position: relative;
+    width: 100%;
+  }
+}

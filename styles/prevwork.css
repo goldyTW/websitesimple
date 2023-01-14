@@ -1,0 +1,284 @@
+* {
+    scroll-behavior: smooth;
+  }
+  body {
+    width: 100%;
+    font-family: "Ruda", sans-serif;
+  }
+  ::selection {
+    background: #b4e9fd;
+  }
+  
+  .reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 0.5s all ease;
+    background-color: white;
+  }
+  
+  .reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* Nav */
+  .navbarPrev{
+    background-color: #ffffff;
+    box-shadow: 10px 12px 20px #8ec5fc33;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .navbarPrev a {
+    text-decoration: none;
+    color: black;
+    opacity: 100% !important;
+    transition: 0.5s;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: right;
+  }
+  .navbarPrev img {
+    width: 5em;
+  }
+  .ulprev {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style-type: none;
+    font-size: 18px;
+  }
+  .ulprev .liprev .aprev {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 8px 0;
+  }
+  .ulprev .liprev .aprev::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: black;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+ .ulprev .liprev .aprev:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  .navbar-nav {
+    margin-left: 0%;
+  }
+  .btn-contactPrev{
+    background-color: #333; 
+    color:  white !important; 
+    border-radius: 10px;
+    border: 1px solid #333;
+  }
+  .btn-contactPrev:hover{
+    background-color: transparent;
+    color: #333 !important; 
+    border: 1px solid #333;
+  }
+  /* Nav */
+  
+.swiper-button-prev,
+.swiper-button-next {
+    color: rgb(135, 135, 135) !important;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin: 20px;
+}
+
+#previous_works{
+  min-height: 90vh;
+}
+
+.cardPrev{
+  background: white;
+  border-radius: 30px;
+  /* box-shadow: 2px 4px 13px 5px rgba(92, 92, 92, 0.25); */
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+  border: none !important;
+  text-decoration: none;
+  color: white;
+}
+
+.cardPrev .poster::before{
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, var(--bgcolor) 35%, transparent);
+  transition: 0.5s;
+  z-index: 1;
+  border: none !important;
+}
+.cardPrev:hover .poster img{
+  transform: translateY(-50px);
+  filter: blur(5px);
+}
+.cardPrev:hover .poster::before{
+  bottom: 0px;
+}
+.cardPrev .poster img{
+  width: 100%;
+  transition: 0.5s;
+}
+.cardPrev .details{
+  align-self: baseline;
+  position: absolute;
+  bottom: -80px;
+  left:   10px;
+  padding: 20px;
+  width: 100%;
+  z-index: 2;
+  transition: 0.5s;
+}
+.cardPrev:hover .details{
+  bottom: 0px;
+}
+.cardPrev .details h3{
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: #F9F9FB;
+}
+.cardPrev .details p{
+  font-weight: 300;
+  font-size: 1rem;
+}
+.servicesTitle {
+  font-weight: 900;
+  font-size: 40px;
+  /* margin-top: 14%; */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(265.85deg, #44B6BD 22.42%, #5DB4FC 51.17%, #01498D 85.14%); */
+}
+.servicesText {
+  align-self: center;
+}
+.servicesText h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.servicesText a {
+  font-size: 18px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: none;
+  color: black;
+}
+#wafloat {
+  position: fixed;
+  bottom: 3%;
+  right: 2% !important;
+  background-color: none !important;
+  cursor: pointer;
+  border: none;
+  z-index: 99;
+  border-radius: 50px;
+  color: #28344c;
+  font-size: 20px;
+  transition: 0.5s;
+}
+#wafloat:hover {
+  text-decoration: none !important;
+  font-weight: bold;
+}
+.my-float {
+  color: white;
+  text-decoration: none;
+}
+.concept:hover {
+  transform: scale(1.2);
+}
+#concepts {
+  min-height: 800px;
+}
+.swiperphone, .swiperipad{
+  display: none;
+}
+@media (max-width: 1024px) {
+  .contactme {
+    height: 666px;
+  }
+    #concepts {
+      min-height: 1150px;
+    }
+}
+@media (max-width: 768px) {
+  .btn-contactPrev{
+      float: right;
+      margin: 2% 1%;
+  }
+  #contactme .Title {
+    font-size: 30px;
+    margin-top: 0%;
+  }
+  .contactme {
+    height: 566px;
+  }
+  .servicesText h2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .servicesText a {
+    font-size: 14px;
+  }
+  #concepts {
+    min-height: 820px;
+  }
+  .swiperipad{
+    display: block;
+  }
+  .swiperdesktop{
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .navbarPrev img {
+    width: 5em;
+  }
+  .banner {
+    padding-top: 40%;
+    padding-bottom: 0%;
+  }
+  #aboutme img {
+    margin-top: 10% !important;
+  }
+  .contactme {
+    height: 866px;
+    background-size: 350%;
+    background-repeat: no-repeat;
+  }
+  .servicesText {
+    align-self: center;
+  }
+  .servicesText h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .servicesText a {
+    font-size: 16px !important;
+  }
+  .swiperdesktop, .swiperipad{
+    display: none;
+  }
+  .swiperphone{
+      display: block;
+  }
+}
+  
