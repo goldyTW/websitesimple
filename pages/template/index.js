@@ -42,7 +42,7 @@ function Template(){
         <Navbar></Navbar>
         <section id="body">
             <a href="https://api.whatsapp.com/send?phone=6289654710491&text=Halo%20,%20saya%20mau%20bertanya%20tentang%20pembuatan%20website" 
-            target="_blank" id="wafloat">
+            target="_blank" id="wafloat"  rel="noreferrer">
                 <img src="/images/wa.png" width="75px" className=""/> 
                 <div id="ask" className="text-center">Ask Us</div>
             </a>

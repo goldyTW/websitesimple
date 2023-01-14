@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 function HomeIndex(){
@@ -31,7 +32,7 @@ function HomeIndex(){
     return(
         <section id="body">
         <a href="https://api.whatsapp.com/send?phone=6289654710491&text=Halo%20,%20saya%20mau%20bertanya%20tentang%20pembuatan%20website" 
-         target="_blank" id="wafloat">
+         target="_blank" id="wafloat"  rel="noreferrer">
             <img src="/images/wa.png" width="75px" className="" /> 
             <div id="ask" className="text-center">Ask Us</div>
         </a>
@@ -178,7 +179,9 @@ function HomeIndex(){
                     style={{backgroundImage: `url(/images/petanetra3.png)`}}>
                     </div>
                     <div className="col-12 my-4 text-center">
-                        <a className="seemore" href="/previousworks"><span>See More</span></a>
+                        <Link href="/previousworks">
+                        <button className="btn seemore" ><span>See More</span></button>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -199,9 +202,9 @@ function HomeIndex(){
                                     <img src="/images/aldo.jpg" width="100%"/>
                                 </div>
                                 <div className="col-md-8 col-10 align-self-center">
-                                    "Website yang dibuat oleh websitesimple.id telah membantu saya untuk meningkatkan kepercayaan
+                                    &quot;Website yang dibuat oleh websitesimple.id telah membantu saya untuk meningkatkan kepercayaan
                                     buyer dari luar negri.
-                                    Pengerjaannya juga cepat dan gak ribet"
+                                    Pengerjaannya juga cepat dan gak ribet&quot;
                                     <br/>
                                     <div className="mt-3 clientName">Aldo Oktavianus</div>
                                     <div>CEO Best4lashes</div>
@@ -214,9 +217,9 @@ function HomeIndex(){
                                     <img src="/images/bom.jpg" width="100%"/>
                                 </div>
                                 <div className="col-md-8 col-10 align-self-center">
-                                    "Company profile yang dibuat oleh websitesimple.id mempunyai UI/UX yang rapi, pengerjaannya cepat, dan harganya
+                                    &quot;Company profile yang dibuat oleh websitesimple.id mempunyai UI/UX yang rapi, pengerjaannya cepat, dan harganya
                                     cukup
-                                    terjangkau"
+                                    terjangkau&quot;
                                     <br/>
                                     <div className="mt-3 clientName">Christophorus Widi</div>
                                     <div>CEO PT. Trimitra Selaras Prima</div>
@@ -320,7 +323,7 @@ function HomeIndex(){
                             <div className="favorite"> <img src="/images/tech.png" width="75px" /></div>
                             <h5 className="text-center">Custom Website</h5>
                             <div className="wrapperprice">
-                                <h1 className="text-center" style={{fontSize: '35px'}}>Let's Discuss</h1>
+                                <h1 className="text-center" style={{fontSize: '35px'}}>Let&apos;s Discuss</h1>
                             </div>
                             <hr/>
                             <div className="features">

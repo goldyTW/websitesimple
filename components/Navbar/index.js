@@ -44,27 +44,27 @@ function Navbar(){
             <div className={`${WhiteBg ? '' : 'nvbr'} navbar-collapse collapse`} id="navbarNav" style={{zIndex: 99}}>
                 <ul className={`${WhiteBg ? 'ulprev' : ''} navbar-nav mx-auto`}>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
-                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} href="/">Home<span className="sr-only">(current)</span></a>
+                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/">Home</a>
                     </li>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
-                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} href="/#aboutme">About<span className="sr-only">(current)</span></a>
+                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="#aboutme">About</a>
                     </li>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
-                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} href="/#layanan">Services<span className="sr-only">(current)</span></a>
+                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="#layanan">Services</a>
                     </li>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
-                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} href="/#pricing">Pricing<span className="sr-only">(current)</span></a>
+                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="#pricing">Pricing</a>
                     </li>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
-                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} href="/previousworks">Previous Works<span className="sr-only">(current)</span></a>
+                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/previousworks">Previous Works</a>
                     </li>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
-                        {/* <!-- <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} href="/concept">Concepts<span className="sr-only">(current)</span></a> --> */}
-                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} href="/template">Template<span className="sr-only">(current)</span></a>
+                        {/* <!-- <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/concept">Concepts</a> --> */}
+                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/template">Template</a>
                     </li>
                 </ul>   
                 <a href="https://api.whatsapp.com/send?phone=6289654710491&text=Halo%20,%20saya%20mau%20bertanya%20tentang%20pembuatan%20website" 
-                target="_blank">
+                target="_blank" rel="noreferrer" >
                 <button className={`btn ${WhiteBg ? 'btn-contactPrev' : 'btn-contact'}`}>Contact</button>
                 </a>
             </div>

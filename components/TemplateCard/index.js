@@ -50,7 +50,7 @@ function TemplateCard({img, name, id, link, selected, setSelected }){
                             <button className='btn py-2 px-4 m-1 m-lg-2 btn-beliSelected' onClick={() => handleRemove(id)}>
                             Hapus</button>
                         }
-                        <a href={link} target="_blank" className="btn btn-lihat px-4 py-2 m-1 m-lg-2">Lihat</a>
+                        <a href={link} rel="noreferrer" target="_blank" className="btn btn-lihat px-4 py-2 m-1 m-lg-2">Lihat</a>
                     </div>
                 </div>
             </div>

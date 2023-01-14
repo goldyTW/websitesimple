@@ -49,7 +49,7 @@ function Checkout() {
     <Navbar></Navbar>
     <section id="body">
     <a href="https://api.whatsapp.com/send?phone=6289654710491&text=Halo%20,%20saya%20mau%20bertanya%20tentang%20pembuatan%20website" 
-            target="_blank" id="wafloat">
+            target="_blank"  rel="noreferrer" id="wafloat">
                 <img src="/images/wa.png" width="75px" className=""/> 
                 <div id="ask" className="text-center">Ask Us</div>
             </a>
@@ -67,9 +67,9 @@ function Checkout() {
                                     {
                                         selected.length != 0 ?
                                         selected.map((item) => (
-                                            product.map((item2) => (
+                                            product.map((item2,i) => (
                                                 item == item2.id &&
-                                                <div className='cardCheckout py-3 px-4 my-3'>
+                                                <div className='cardCheckout py-3 px-4 my-3' key={i}>
                                                     <div className='row'>
                                                         <div className='col-lg-3 col-md-3 col-12 align-self-center'>
                                                             <img src={item2.img} width="100%"></img>

@@ -140,7 +140,7 @@ function PreviousWorks(){
         <Navbar></Navbar>
         <section id="body">
             <a href="https://api.whatsapp.com/send?phone=6289654710491&text=Halo%20,%20saya%20mau%20bertanya%20tentang%20pembuatan%20website" 
-            target="_blank" id="wafloat">
+            target="_blank" id="wafloat"  rel="noreferrer">
                 <img src="/images/wa.png" width="75px" className=""/> 
                 <div id="ask" className="text-center">Ask Us</div>
             </a>
@@ -160,7 +160,7 @@ function PreviousWorks(){
                                 {projects.map((item, i) => (
                                 <SwiperSlide key={i}>
                                     <div className='col-12'>
-                                        <a href={item.link} target="_blank">
+                                        <a href={item.link} target="_blank"  rel="noreferrer">
                                         <div className='cardPrev align-self-center'>
                                             <div className="poster" style={{"--bgcolor":item.color}}>
                                                 <img className='' src={item.src} alt={item.name}></img>
@@ -185,7 +185,7 @@ function PreviousWorks(){
                                 {projects.map((item, i) => (
                                 <SwiperSlide key={i}>
                                     <div className='col-12'>
-                                        <a href={item.link} target="_blank">
+                                        <a href={item.link} target="_blank"  rel="noreferrer">
                                         <div className='cardPrev align-self-center'>
                                             <div className="poster" style={{"--bgcolor":item.color}}>
                                                 <img className='' src={item.src} alt={item.name}></img>
@@ -210,7 +210,7 @@ function PreviousWorks(){
                                 {projects.map((item, i) => (
                                 <SwiperSlide key={i}>
                                     <div className='col-12'>
-                                        <a href={item.link} target="_blank">
+                                        <a href={item.link} target="_blank"  rel="noreferrer">
                                         <div className='cardPrev align-self-center'>
                                             <div className="poster" style={{"--bgcolor":item.color}}>
                                                 <img className='' src={item.src} alt={item.name}></img>
@@ -241,7 +241,7 @@ function PreviousWorks(){
                                 {projectsInvolved.map((item, i) => (
                                 <SwiperSlide key={i}>
                                     <div className='col-12'>
-                                        <a href={item.link} target="_blank">
+                                        <a href={item.link} target="_blank"  rel="noreferrer">
                                         <div className='cardPrev align-self-center'>
                                             <div className="poster" style={{"--bgcolor":item.color}}>
                                                 <img className='' src={item.src} alt={item.name}></img>
@@ -266,7 +266,7 @@ function PreviousWorks(){
                                 {projectsInvolved.map((item, i) => (
                                 <SwiperSlide key={i}>
                                     <div className='col-12'>
-                                        <a href={item.link} target="_blank">
+                                        <a href={item.link} target="_blank"  rel="noreferrer">
                                         <div className='cardPrev align-self-center'>
                                             <div className="poster" style={{"--bgcolor":item.color}}>
                                                 <img className='' src={item.src} alt={item.name}></img>
@@ -291,7 +291,7 @@ function PreviousWorks(){
                                 {projectsInvolved.map((item, i) => (
                                 <SwiperSlide key={i}>
                                     <div className='col-12'>
-                                        <a href={item.link} target="_blank">
+                                        <a href={item.link} target="_blank"  rel="noreferrer">
                                         <div className='cardPrev align-self-center'>
                                             <div className="poster" style={{"--bgcolor":item.color}}>
                                                 <img className='' src={item.src} alt={item.name}></img>
