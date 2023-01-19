@@ -42,7 +42,7 @@ function HomeIndex(){
                 <div className="row justify-content-between mt-lg-5">
                     <div className="col-xl-5 col-lg-6 col-md-6 col-12 text-center">
                         <img src="/images/landing2.png" width="80%" />
-                        <img src="/images/sendcrypto.png" width="80%" />
+                        <img src="/images/petanetra3.png" width="80%" />
                     </div>
                     <div className="col-xl-7 col-lg-6 col-md-6 col-12">
                         <h3>Kami Siap Membantu Bisnis Anda Go Digital</h3>

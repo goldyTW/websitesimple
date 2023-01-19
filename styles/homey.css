@@ -529,6 +529,11 @@
     .previousWorksImg{
       transform: translateY(0%);
     }
+
+    .panel{
+      border-radius: 30px;
+      height: 25vh;
+    }
   }
   @media (max-width: 768px) {
     .btn-contact{
@@ -573,6 +578,9 @@
     }
   }
   @media (max-width: 576px) {
+    .navbar{
+      background-color: rgba(46, 46, 46, 0.9) !important;
+    }
     .navbar img {
       width: 5em;
     }
@@ -615,6 +623,10 @@
     .prev {
         left: 0;
         z-index: 999;
+    }
+    .panel{
+      border-radius: 20px;
+      height: 15vh;
     }
   }
   

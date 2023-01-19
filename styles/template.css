@@ -8,12 +8,14 @@
 }
 .cardTemplate img{
   border-radius: 20px;
-  object-fit: contain;
+  object-fit: cover;
+  height: 50%;
   width:100%;
-  /* aspect-ratio:16/8; */
+  aspect-ratio:16/9;
+  background-position: top center;
 } 
 .titleheight{
-  height: 100px;
+  height: 25%;
 }
 .titletemplate{
   font-size: 22px;

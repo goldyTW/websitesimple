@@ -45,6 +45,8 @@ function IsiData() {
             }
         }
         else{
+          localStorage.setItem('nama', name)
+          localStorage.setItem('email', email)
             setLoading(false)
             axios.post(`${url}/api/purchase`,{email, name, pesanan:selected, total, reason},{
                 // pesanan:selected, total,

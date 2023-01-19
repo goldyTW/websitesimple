@@ -208,6 +208,9 @@
 #concepts {
   min-height: 800px;
 }
+.swiperdesktop{
+  display: block;
+}
 .swiperphone, .swiperipad{
   display: none;
 }
@@ -244,11 +247,14 @@
   .swiperipad{
     display: block;
   }
-  .swiperdesktop{
+  .swiperdesktop, .swiperphone{
     display: none;
   }
 }
 @media (max-width: 576px) {
+  .navbarPrev{
+    background-color: white !important;
+  }
   .navbarPrev img {
     width: 5em;
   }

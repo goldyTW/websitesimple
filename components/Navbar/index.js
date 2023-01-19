@@ -38,22 +38,29 @@ function Navbar(){
     return(
         <nav className={`${WhiteBg ? 'navbarPrev': ''} navbar navbar-expand-lg container fixed-top`} id="navbarUtama">
             <img src={`${WhiteBg ? '/images/logonewcolor.png' : '/images/logonew1.png'}`} />
-            <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" 
+            type="button"
+            data-toggle="collapse" 
+            data-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
                 <i className="fa fa-bars" style={{color: WhiteBg ? 'black' : 'white'}}></i>
             </button>
-            <div className={`${WhiteBg ? '' : 'nvbr'} navbar-collapse collapse`} id="navbarNav" style={{zIndex: 99}}>
+            <div className="navbar-collapse collapse" id="navbarNav">
+            {/* style={{zIndex: 99}} */}
                 <ul className={`${WhiteBg ? 'ulprev' : ''} navbar-nav mx-auto`}>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
                         <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/">Home</a>
                     </li>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
-                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="#aboutme">About</a>
+                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/#aboutme">About</a>
                     </li>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
-                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="#layanan">Services</a>
+                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/#layanan">Services</a>
                     </li>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
-                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="#pricing">Pricing</a>
+                        <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/#pricing">Pricing</a>
                     </li>
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
                         <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/previousworks">Previous Works</a>

@@ -51,8 +51,8 @@ function Template(){
                 <div className="container my-4">
                     <div className='py-4'>
                         <div className="col-12 text-center">
-                            <h2 className="servicesTitle" style={{marginTop:'8%'}}>Website Template</h2>
-                            <p>Download html, css, dan js dari website-website keren berikut ini</p>
+                            <h2 className="servicesTitle" style={{marginTop:'8%'}}>Wordpress Template</h2>
+                            <p>Beli Wordpress Template Terbaik untuk Websitemu!</p>
                         </div>
 
                         <div className="row">

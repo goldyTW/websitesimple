@@ -7,28 +7,37 @@ import { useRouter } from 'next/router';
 function Payment() {
     const router = useRouter();
     const [total, setTotal] = useState();
+    const [nama, setNama] = useState();
+    const [email, setEmail] = useState();
     let ttl;
-    let nama = "goldy";
-    let email = "goldy@gmail";
-    const wa_link = "https://api.whatsapp.com/send?phone=6289654710491&text=Saya%20"+nama+"%20dengan%20email%20"+email+"%20ingin%20mengkonfirmasi%20pembayaran%20landing%20page%20template%20pesanan%20saya%20sebesar%20"+Number(total).toLocaleString()+".%20Berikut%20saya%20lampirkan%20bukti%20pembayaran%20saya."
+    let nm = "";
+    let em = "";
     
 
     useEffect(() => {
         // localStorage.removeItem("cart")
         ttl = localStorage.getItem("total");
+        em = localStorage.getItem("email");
+        nm = localStorage.getItem("nama");
         
         if(ttl != null ){
            setTotal(ttl)
+           setNama(nm)
+           setEmail(em)
         }
 
     }, [])
 
     function konfirmasi(){
         localStorage.removeItem("cart");
-        localStorage.removeItem("total")
+        localStorage.removeItem("total");
+        localStorage.removeItem("email");
+        localStorage.removeItem("nama");
         window.open(wa_link, '_blank')
         router.push('/template')
     }
+
+    const wa_link = "https://api.whatsapp.com/send?phone=6289654710491&text=Saya%20"+nama+"%20dengan%20email%20"+email+"%20ingin%20mengkonfirmasi%20pembayaran%20landing%20page%20template%20pesanan%20saya%20sebesar%20"+Number(total).toLocaleString()+".%20Berikut%20saya%20lampirkan%20bukti%20pembayaran%20saya."
 
   return (
     <>
