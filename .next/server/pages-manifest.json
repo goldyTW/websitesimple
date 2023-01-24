@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/checkout": "pages/checkout.html",
+  "/isi-data": "pages/isi-data.html",
+  "/pembayaran": "pages/pembayaran.html",
+  "/previousworks": "pages/previousworks.html",
+  "/api/purchase": "pages/api/purchase.js",
+  "/template": "pages/template.html",
+  "/": "pages/index.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
