@@ -3,7 +3,7 @@ import React from 'react';
 function Hero(){
     return(
     <section id="landing">
-        <img className="landingImage" src="/images/landing.png" width="100%" z-index="-1"/>
+        <img className="landingImage" src="/images/landing.png" width="100%" z-index="-1" alt='websitesimple.id'/>
         <div className="container kepala">
             <div className="row justify-content-center">
                 <div className="col-xl-6 col-lg-6 col-12 banner">

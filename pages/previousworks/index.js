@@ -127,7 +127,7 @@ const projectsInvolved = [
         id:2,
         name:'Mountable',
         desc:'Website Startup pembuat alat tracking pendaki gunung berbasis Iot',
-        src:'/images/mountable.png',
+        src:'/images/mountable_prevwork.png',
         link:'#',
         color:'#325688'
     },

@@ -182,7 +182,7 @@ function HomeIndex(){
                     </div>
                     <div className="col-12 my-4 text-center">
                         <Link href="/previousworks">
-                        <button className="btn seemore" ><span>See More</span></button>
+                        <button className="btn seemore" ><span>See More Websites</span></button>
                         </Link>
                     </div>
                 </div>
