@@ -84,6 +84,14 @@ const projectsInvolved = [
         color:'#e2bc76'
     },
     {
+        id:7,
+        name:'Translator Forum',
+        desc:'Forum penerjemah buku bahasa Jerman - bahasa asing lainnya',
+        src:'/images/translatorforum.de.png',
+        link:'https://translatorforum.de',
+        color:'#e42d3f'
+    },
+    {
         id:4,
         name:'Villa Maya',
         desc:'Website company profile Villa di Tabanan, Bali',
@@ -108,14 +116,6 @@ const projectsInvolved = [
         color:'#51668c'
     },
     {
-        id:7,
-        name:'Translator Forum',
-        desc:'Forum penerjemah buku bahasa Jerman - bahasa asing lainnya',
-        src:'/images/translatorforum.de.png',
-        link:'https://translatorforum.de',
-        color:'#e42d3f'
-    },
-    {
         id:8,
         name:'Jaktent 2021',
         desc:'Website event Jakarta Content Week 2021',
@@ -136,12 +136,23 @@ const projectsInvolved = [
 function PreviousWorks(){
     return(
         <>
-        <Head><title>WebsiteSimple | Previous Works</title></Head>
+        <Head><title>WebsiteSimple | Previous Works</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="icon" href="/favicon.ico" />
+            <meta name="description" content="Membantu anda dalam pembuatan website untuk bisnis export" />
+            <meta name="keywords" content="Jasa Pembuatan website, Konsultasi website, Pembuatan website custom, Web developer, Digital Agency, Website fancy, Design website, UI Designer, UX Designer, UI / UX Designer, Front end developer,
+            backend developer, SEO, Search Engine Optimization, Digital marketing"></meta>
+
+            <meta property="og:title" content="Websitesimple.id | Bikin Website Untuk Bisnismu!" />
+            <meta property="og:description" content="Dengan teknologi Augmented Reality (AR) dan voice-over, PetaNetra bertujuan untuk menjadi mata bagi teman-teman tunanetra agar dapat bernavigasi secara mandiri di ruang publik indoor atau semi-outdoor." />
+            <meta property="og:image" content="/images/logonew.png" />
+            <meta property="og:url" content="https://websitesimple.id" />
+        </Head>
         <Navbar></Navbar>
         <section id="body">
             <a href="https://api.whatsapp.com/send?phone=6289654710491&text=Halo%20,%20saya%20mau%20bertanya%20tentang%20pembuatan%20website" 
             target="_blank" id="wafloat"  rel="noreferrer">
-                <img src="/images/wa.png" width="75px" className=""/> 
+                 <img src="/images/wa.png" width="75px" alt='whatsapp websitesimple'/> 
                 <div id="ask" className="text-center">Ask Us</div>
             </a>
 

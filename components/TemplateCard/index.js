@@ -37,7 +37,7 @@ function TemplateCard({img, name, id, link, selected, setSelected }){
     return(
         <div className="col-lg-4 col-md-6 col-12 p-4">
             <div className="cardTemplate align-self-center text-center p-0">
-                <img className='p-0' src={img} />
+                <img className='p-0' src={img} alt={name}/>
                 <div className="titleheight">
                     <h4 className="titletemplate p-4">{name}</h4>
                 </div>

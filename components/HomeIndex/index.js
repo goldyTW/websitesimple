@@ -33,7 +33,7 @@ function HomeIndex(){
         <section id="body">
         <a href="https://api.whatsapp.com/send?phone=6289654710491&text=Halo%20,%20saya%20mau%20bertanya%20tentang%20pembuatan%20website" 
          target="_blank" id="wafloat"  rel="noreferrer">
-            <img src="/images/wa.png" width="75px" className="" /> 
+            <img src="/images/wa.png" width="75px" alt='whatsapp websitesimple'/> 
             <div id="ask" className="text-center">Ask Us</div>
         </a>
 
@@ -41,8 +41,8 @@ function HomeIndex(){
             <div className="container">
                 <div className="row justify-content-center mt-lg-5">
                     <div className="col-lg-6 col-md-6 col-12 text-center">
-                        <img className='p-4' src="/images/mountable.png" width="100%" />
-                        <img className='p-4' src="/images/petanetra3.png" width="100%" />
+                        <img className='p-4' src="/images/mountable.png" width="100%" alt='moutable'/>
+                        <img className='p-4' src="/images/petanetra3.png" width="100%" alt='petanetra'/>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 align-self-center">
                         <h3>Apa aja sih keuntungan mempunyai website untuk bisnis?</h3>
@@ -76,7 +76,7 @@ function HomeIndex(){
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-12 my-3">
                         <div className="card p-5">
-                            <img height="70px" width="70px" src="/images/landingpage.png"/>
+                            <img height="70px" width="70px" src="/images/landingpage.png" alt='landingIllustration'/>
                             <div className="servicesText mt-4">Pembuatan Landing Page</div>
                             <a className="servicesDetail">Cocok untuk UMKM yang membutuhkan
                                 website simple untuk memasarkan produknya ke pasaran</a>
@@ -84,7 +84,7 @@ function HomeIndex(){
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 my-3">
                         <div className="card p-5">
-                            <img height="70px" width="70px" src="/images/company2.png"/>
+                            <img height="70px" width="70px" src="/images/company2.png" alt='comproIlustration'/>
                             <div className="servicesText mt-4">Pembuatan Company Profile</div>
                             <a className="servicesDetail">Cocok untuk Anda pemilik bisnis di bidang <b>ekspor</b> untuk meningkatkan
                                 kredibilitas bisnis Anda di mata calon klien</a>
@@ -92,7 +92,7 @@ function HomeIndex(){
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 my-3">
                         <div className="card p-5">
-                            <img height="70px" width="70px" src="/images/cart.png"/>
+                            <img height="70px" width="70px" src="/images/cart.png" alt='eCommerceIllustration'/>
                             <div className="servicesText mt-4">Pembuatan Web E-Commerce</div>
                             <a className="servicesDetail">Cocok untuk Anda pemilik <b>toko online</b> agar customer anda lebih mudah dan
                                 aman dalam bertransaksi</a>
@@ -100,28 +100,28 @@ function HomeIndex(){
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 my-3">
                         <div className="card p-5">
-                            <img height="70px" width="70px" src="/images/blog.png"/>
+                            <img height="70px" width="70px" src="/images/blog.png" alt='blogIllustration'/>
                             <div className="servicesText mt-4">Pembuatan Blog Website</div>
                             <a className="servicesDetail">Cocok untuk Anda yang ingin membuat <b>blog pribadi</b> untuk portofolio Anda</a>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 my-3">
                         <div className="card p-5">
-                            <img height="70px" width="70px" src="/images/organization.png"/>
+                            <img height="70px" width="70px" src="/images/organization.png" alt='orgIllustration'/>
                             <div className="servicesText mt-4">Pembuatan Web Organization Profile</div>
                             <a className="servicesDetail">Cocok untuk <b>organisasi</b> non profit, atau organisasi seperti sekolah, gereja, dan komunitas</a>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 my-3">
                         <div className="card p-5">
-                            <img height="70px" width="70px" src="/images/templateweb.png"/>
+                            <img height="70px" width="70px" src="/images/templateweb.png" alt='templateIllustration'/>
                             <div className="servicesText mt-4">Penjualan Template Website</div>
                             <a className="servicesDetail">Cocok untuk kamu yang mau bikin website dengan <b>lebih cepat</b></a>
                         </div>
                     </div>
                    {/* <div className="col-xl-3 col-lg-4 col-md-6 col-12 my-3">
                         <div className="card p-5">
-                            <img height="70px" width="70px" src="/images/seo.png"/>
+                            <img height="70px" width="70px" src="/images/seo.png" alt='seoIllustration'/>
                             <div className="servicesText mt-4">Jasa SEO</div>
                             <a className="servicesDetail">Cocok untuk Anda pemilik website yang ingin website nya <b>lebih banyak
                                     dikunjungi</b> oleh
@@ -130,7 +130,7 @@ function HomeIndex(){
                     </div> */}
                     {/* <div className="col-xl-3 col-lg-4 col-md-6 col-12 my-3">
                         <div className="card p-5">
-                            <img height="70px" width="70px" src="/images/igads.png"/>
+                            <img height="70px" width="70px" src="/images/igads.png" alt='igAdsIllustration'/>
                             <div className="servicesText mt-4">Jasa FB, IG, Google Ads</div>
                             <a className="servicesDetail">Cocok untuk Anda yang ingin bisnisnya <b>diiklankan</b> di facebook,
                                 instagram, dan google</a>
@@ -201,7 +201,7 @@ function HomeIndex(){
                         <div className="mySlides">
                             <div className="row justify-content-center">
                                 <div className="col-md-4 col-10 my-3 my-lg-0">
-                                    <img src="/images/aldo.jpg" width="100%"/>
+                                    <img src="/images/aldo.jpg" width="100%" alt='ceo-best4lashes'/>
                                 </div>
                                 <div className="col-md-8 col-10 align-self-center">
                                     &quot;Website yang dibuat oleh websitesimple.id telah membantu saya untuk meningkatkan kepercayaan
@@ -216,7 +216,7 @@ function HomeIndex(){
                         <div className="mySlides">
                             <div className="row justify-content-center">
                                 <div className="col-md-4 col-10 my-3 my-lg-0">
-                                    <img src="/images/bom.jpg" width="100%"/>
+                                    <img src="/images/bom.jpg" width="100%" alt='ceo-trimitra'/>
                                 </div>
                                 <div className="col-md-8 col-10 align-self-center">
                                     &quot;Company profile yang dibuat oleh websitesimple.id mempunyai UI/UX yang rapi, pengerjaannya cepat, dan harganya
@@ -242,7 +242,7 @@ function HomeIndex(){
                 <div className="row">
                     <div className="col-xl-3 col-md-6 col-12 my-3">
                         <div className="card2 p-4">
-                            <div className="favorite"> <img src="/images/hemat.png" width="75px"/></div>
+                            <div className="favorite"> <img src="/images/hemat.png" width="75px" alt='landingPriceIllustration'/></div>
                             <h5 className="text-center">Landing Page</h5>
                             <div className="wrapperprice">
                                 <h1 className="text-center">Rp500<span className="kilo">ribu</span></h1>
@@ -255,7 +255,7 @@ function HomeIndex(){
                                     <div className="my-3">Responsive UI/UX</div>
                                 <div className="my-3">Free UX writing</div>
                                 <div className="my-3">Maintenance per tahun, free 1 tahun pertama</div>
-                                <div className="my-3">Free SEO</div>
+                                <div className="my-3">Optimasi SEO</div>
                                 <div className="my-3">Revisi dikenakan charge tambahan</div>
                             </div>
                             <hr/>
@@ -268,7 +268,7 @@ function HomeIndex(){
                     </div>
                     <div className="col-xl-3 col-md-6 col-12 my-3">
                         <div className="card3 p-4">
-                            <div className="favorite"> <img src="/images/hati.png" width="55px"/></div>
+                            <div className="favorite"> <img src="/images/hati.png" width="55px" alt='comproPriceIllustration'/></div>
                             <h5 className="text-center">Company Profile</h5>
                             <div className="wrapperprice">
                                 <h1 className="text-center">Rp750<span className="kilo">ribu</span></h1>
@@ -281,7 +281,7 @@ function HomeIndex(){
                                 <div className="my-3">Responsive UI/UX</div>
                                 <div className="my-3">Free UX writing</div>
                                 <div className="my-3">Maintenance per tahun, free 1 tahun pertama</div>
-                                <div className="my-3">Free SEO</div>
+                                <div className="my-3">Optimasi SEO</div>
                                 <div className="my-3">Free 3x revisi s.d training</div>
                                 <div className="my-3">Pembuatan content dikenakan charge tambahan</div>
                                 <div className="my-3">Free admin panel</div>
@@ -296,10 +296,10 @@ function HomeIndex(){
                     </div>
                     <div className="col-xl-3 col-md-6 col-12 my-3">
                         <div className="card2 p-4">
-                            <div className="favorite"> <img src="/images/cart.png" width="75px"/></div>
+                            <div className="favorite"> <img src="/images/cart.png" width="75px" alt='eCommPriceIllustration'/></div>
                             <h5 className="text-center">E-Commerce</h5>
                             <div className="wrapperprice">
-                                <h1 className="text-center">Rp2<span className="kilo">juta</span></h1>
+                                <h1 className="text-center">Rp1.5<span className="kilo">juta</span></h1>
                                 <p className="text-center">(Boleh diskusi lagi kok)</p>
                             </div>
                             <hr/>
@@ -323,7 +323,7 @@ function HomeIndex(){
                     </div>
                     <div className="col-xl-3 col-md-6 col-12 my-3">
                         <div className="card2 p-4">
-                            <div className="favorite"> <img src="/images/tech.png" width="75px" /></div>
+                            <div className="favorite"> <img src="/images/tech.png" width="75px" alt="customPriceIllustration"/></div>
                             <h5 className="text-center">Custom Website</h5>
                             <div className="wrapperprice">
                                 <h1 className="text-center" style={{fontSize: '35px'}}>Let&apos;s Discuss</h1>
@@ -369,18 +369,18 @@ function HomeIndex(){
                         <h2 className="Title">Kenapa Bikin Website disini?</h2>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-5 col-12 px-4 pt-4">
-                        <img className='kenapaImg text-center' width="100%" src="/images/mudah.png" />
+                        <img className='kenapaImg text-center' width="100%" src="/images/mudah.png" alt='mudah'/>
                         <h3 className='pt-lg-5 pt-4 text-center'>Mudah</h3>
                         {/* <p className=''>Proses bikin website nya gak ribet, gak banyak istilah-istilah aneh yang bikin Anda tambah pusing</p> */}
                        
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-5 col-12 px-4 pt-4">
-                        <img className='kenapaImg text-center' width="100%" src="/images/murah.png" />
+                        <img className='kenapaImg text-center' width="100%" src="/images/murah.png" alt='murah'/>
                         <h3 className='pt-lg-5 pt-4 text-center'>Murah</h3>
                         {/* <p>Dengan harga mulai dari 500 ribu, Anda bisa mendapatkan website dengan design yang bagus dan layanan yang lengkap</p> */}
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-5 col-12 px-4 pt-4">
-                        <img className='kenapaImg text-center' width="100%" src="/images/cepat.png" />
+                        <img className='kenapaImg text-center' width="100%" src="/images/cepat.png" alt='cepat'/>
                         <h3 className='pt-lg-5 pt-4 text-center'>Cepat</h3>
                         {/* <p>Proses pembuatan Company Profile dari awal mengontak kami hingga selesai bisa kurang dari 7 hari (dengan catatan kelengkapan website dari Anda juga cepat disediakan) </p> */}
                     </div>

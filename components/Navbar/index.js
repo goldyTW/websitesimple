@@ -37,7 +37,7 @@ function Navbar(){
     })
     return(
         <nav className={`${WhiteBg ? 'navbarPrev': ''} navbar navbar-expand-lg container fixed-top`} id="navbarUtama">
-            <img src={`${WhiteBg ? '/images/logonewcolor.png' : '/images/logonew1.png'}`} />
+            <img src={`${WhiteBg ? '/images/logonewcolor.png' : '/images/logonew1.png'}`} alt='websitesimple'/>
             <button className="navbar-toggler" 
             type="button"
             data-toggle="collapse" 

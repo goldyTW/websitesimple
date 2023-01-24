@@ -461,7 +461,7 @@
   /* contact me */
   
   #whyme img{
-    height: 250px;
+    aspect-ratio: 1.03;
   }
 
 
@@ -535,9 +535,6 @@
     .panel{
       border-radius: 30px;
       height: 25vh;
-    }
-    #whyme img{
-      height: 220px;
     }
   
   }
@@ -633,9 +630,6 @@
     .panel{
       border-radius: 20px;
       height: 15vh;
-    }
-    #whyme img{
-      height: 350px;
     }
   }
   
