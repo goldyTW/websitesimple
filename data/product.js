@@ -21,6 +21,13 @@ export const product = [
         price:400000
     },
     {
+        id:'w6',
+        name:'Eapp Startup Template Kit',
+        img:'/images/eapp.png',
+        link:'https://eapp.websitesimple.id',
+        price:400000
+    },
+    {
         id:'w5',
         name:'Blog4 Template Kit',
         img:'/images/blog4.jpg',

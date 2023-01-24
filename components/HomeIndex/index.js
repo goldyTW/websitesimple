@@ -39,25 +39,20 @@ function HomeIndex(){
 
         <section id="aboutme" className="pt-5">
             <div className="container">
-                <div className="row justify-content-between mt-lg-5">
-                    <div className="col-xl-5 col-lg-6 col-md-6 col-12 text-center">
-                        <img src="/images/landing2.png" width="80%" />
-                        <img src="/images/petanetra3.png" width="80%" />
+                <div className="row justify-content-center mt-lg-5">
+                    <div className="col-lg-6 col-md-6 col-12 text-center">
+                        <img className='p-4' src="/images/mountable.png" width="100%" />
+                        <img className='p-4' src="/images/petanetra3.png" width="100%" />
                     </div>
-                    <div className="col-xl-7 col-lg-6 col-md-6 col-12">
-                        <h3>Kami Siap Membantu Bisnis Anda Go Digital</h3>
+                    <div className="col-lg-6 col-md-6 col-12 align-self-center">
+                        <h3>Apa aja sih keuntungan mempunyai website untuk bisnis?</h3>
                         <a className="description">
-                            Bisnis, terutama dalam bidang ekspor, sangat perlu untuk go digital agar mendapat kepercayaan dari client luar negri Anda.
-                            Untuk membantu Anda, kami menyediakan layanan-layanan berikut:
                             <ol>
-                            <li>Pembuatan Website Company Profile</li>
-                            <li>Pembuatan Landing Page</li>
-                            <li>Pembuatan Website Organization Profile</li>
-                            <li>Pembuatan Website Blog</li>
-                            <li>Pembuatan Website E-commerce</li>
-                            <li>Pembuatan Website Custom</li>
-                            {/* <!-- <li>Jasa SEO</li>
-                            <li>Jasa Google, Facebook dan IG ads</li> --> */}
+                            <li>Meningkatkan <b>kepercayaan</b> bisnis Anda dengan website yang tampilannya rapi dan bagus</li>
+                            <li>Lebih mudah <b>menarik customer baru</b> dengan SEO atau ads</li>
+                            <li>Meningkatkan <b>branding</b> bisnis Anda. Pasti mau kan bisnis anda yang diinget banyak orang?</li>
+                            <li>Tempat <b>menampilkan portfolio dan prestasi</b> bisnis Anda</li>
+                            <li><i>dan masih banyak lainnya...</i></li>
                             </ol>
                         </a>
                     </div>
@@ -65,7 +60,7 @@ function HomeIndex(){
             </div>
         </section>
 
-        <section id="layanan" className="my-5">
+        <section id="layanan" className="">
             <div className="custom-shape-divider-top-1668752772">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path
@@ -107,7 +102,7 @@ function HomeIndex(){
                         <div className="card p-5">
                             <img height="70px" width="70px" src="/images/blog.png"/>
                             <div className="servicesText mt-4">Pembuatan Blog Website</div>
-                            <a className="servicesDetail">Cocok untuk Anda yang ingin membuat blog pribadi untuk portofolio Anda</a>
+                            <a className="servicesDetail">Cocok untuk Anda yang ingin membuat <b>blog pribadi</b> untuk portofolio Anda</a>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 my-3">
@@ -115,6 +110,13 @@ function HomeIndex(){
                             <img height="70px" width="70px" src="/images/organization.png"/>
                             <div className="servicesText mt-4">Pembuatan Web Organization Profile</div>
                             <a className="servicesDetail">Cocok untuk <b>organisasi</b> non profit, atau organisasi seperti sekolah, gereja, dan komunitas</a>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-12 my-3">
+                        <div className="card p-5">
+                            <img height="70px" width="70px" src="/images/templateweb.png"/>
+                            <div className="servicesText mt-4">Penjualan Template Website</div>
+                            <a className="servicesDetail">Cocok untuk kamu yang mau bikin website dengan <b>lebih cepat</b></a>
                         </div>
                     </div>
                    {/* <div className="col-xl-3 col-lg-4 col-md-6 col-12 my-3">
@@ -247,8 +249,8 @@ function HomeIndex(){
                             </div>
                             <hr/>
                             <div className="features">
-                                <div className="my-3">Website 1 halaman menggunakan wordpress</div>
-                                <div className="my-3">Harga include domain (kecuali .id, .co.id, .co) + SSL + hosting (max. 5000
+                                <div className="my-3">Website 1 halaman</div>
+                                <div className="my-3">Harga include domain kecuali .id, .co.id, .co + SSL + hosting (max. 5000
                                     pengunjung/bln)</div>
                                     <div className="my-3">Responsive UI/UX</div>
                                 <div className="my-3">Free UX writing</div>
@@ -274,7 +276,7 @@ function HomeIndex(){
                             </div>
                             <hr/>
                             <div className="features">
-                                <div className="my-3">Website 5 halaman menggunakan wordpress</div>
+                                <div className="my-3">Website max. 5 halaman</div>
                                 <div className="my-3">Harga include domain + SSL + hosting (max. 5000 pengunjung/bln)</div>
                                 <div className="my-3">Responsive UI/UX</div>
                                 <div className="my-3">Free UX writing</div>
@@ -282,6 +284,7 @@ function HomeIndex(){
                                 <div className="my-3">Free SEO</div>
                                 <div className="my-3">Free 3x revisi s.d training</div>
                                 <div className="my-3">Pembuatan content dikenakan charge tambahan</div>
+                                <div className="my-3">Free admin panel</div>
                             </div>
                             <hr/>
                             <div className="col-12 my-4 text-center">
@@ -301,7 +304,7 @@ function HomeIndex(){
                             </div>
                             <hr/>
                             <div className="features">
-                                <div className="my-3">Website 5 halaman (kecuali halaman detail barang) menggunakan wordpress woocommerce</div>
+                                <div className="my-3">Website max. 5 halaman</div>
                                 <div className="my-3">Harga include domain + SSL + hosting</div>
                                 <div className="my-3">Responsive UI/UX</div>
                                 <div className="my-3">Free UX writing</div>
@@ -327,7 +330,7 @@ function HomeIndex(){
                             </div>
                             <hr/>
                             <div className="features">
-                                <div className="my-3">Jumlah halaman bebas (coding dari awal)</div>
+                                <div className="my-3">Jumlah halaman bebas</div>
                                 <div className="my-3">Harga include domain + SSL + hosting</div>
                                 <div className="my-3">Responsive UI/UX</div>
                                 <div className="my-3">Free UX writing</div>
@@ -344,6 +347,43 @@ function HomeIndex(){
                             </div>
                         </div>
                         </div>
+                </div>
+            </div>
+        </section>
+
+        {/* <section id="whyus" className="py-5 mx-lg-5">
+            <div className="container-fluid px-lg-5 px-4 ">
+                <div className="col-12 text-center">
+                    <h2 className="Title my-4"></h2>
+                </div>
+                <div className="row">
+
+                </div>
+            </div>
+        </section> */}
+
+        <section id="whyme" className='py-5'>
+            <div className="container mt-5">
+                <div className="row justify-content-center">
+                    <div className="col-xl-3 col-lg-3 col-md-5 col-12 align-self-center">
+                        <h2 className="Title">Kenapa Bikin Website disini?</h2>
+                    </div>
+                    <div className="col-xl-3 col-lg-3 col-md-5 col-12 px-4 pt-4">
+                        <img className='kenapaImg text-center' width="100%" src="/images/mudah.png" />
+                        <h3 className='pt-lg-5 pt-4 text-center'>Mudah</h3>
+                        {/* <p className=''>Proses bikin website nya gak ribet, gak banyak istilah-istilah aneh yang bikin Anda tambah pusing</p> */}
+                       
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-12 px-4 pt-4">
+                        <img className='kenapaImg text-center' width="100%" src="/images/murah.png" />
+                        <h3 className='pt-lg-5 pt-4 text-center'>Murah</h3>
+                        {/* <p>Dengan harga mulai dari 500 ribu, Anda bisa mendapatkan website dengan design yang bagus dan layanan yang lengkap</p> */}
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-12 px-4 pt-4">
+                        <img className='kenapaImg text-center' width="100%" src="/images/cepat.png" />
+                        <h3 className='pt-lg-5 pt-4 text-center'>Cepat</h3>
+                        {/* <p>Proses pembuatan Company Profile dari awal mengontak kami hingga selesai bisa kurang dari 7 hari (dengan catatan kelengkapan website dari Anda juga cepat disediakan) </p> */}
+                    </div>
                 </div>
             </div>
         </section>

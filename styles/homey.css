@@ -136,11 +136,8 @@
   /* banner */
   
   /* about me */
-  #aboutme img {
-    margin-top: 20%;
-  }
   #aboutme h3 {
-      font-size: 42px;
+      font-size: 38px;
       font-weight: 600;
       color: #01498d;
   }
@@ -463,6 +460,11 @@
   }
   /* contact me */
   
+  #whyme img{
+    height: 250px;
+  }
+
+
   #wafloat {
     position: fixed;
     bottom: 3%;
@@ -534,6 +536,10 @@
       border-radius: 30px;
       height: 25vh;
     }
+    #whyme img{
+      height: 220px;
+    }
+  
   }
   @media (max-width: 768px) {
     .btn-contact{
@@ -627,6 +633,9 @@
     .panel{
       border-radius: 20px;
       height: 15vh;
+    }
+    #whyme img{
+      height: 350px;
     }
   }
   

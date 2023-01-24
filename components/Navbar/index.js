@@ -53,9 +53,9 @@ function Navbar(){
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
                         <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/">Home</a>
                     </li>
-                    <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
+                    {/* <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
                         <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/#aboutme">About</a>
-                    </li>
+                    </li> */}
                     <li className={`${WhiteBg ? 'liprev' : ''} nav-item`}>
                         <a className={`${WhiteBg ? 'aprev' : ''} nav-link`} rel='noreferrer' href="/#layanan">Services</a>
                     </li>
